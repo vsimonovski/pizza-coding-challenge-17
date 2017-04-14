@@ -37,7 +37,7 @@ let withMeat = (obj) => {
             'calamari',
             'sausage'
         ];
-        let hasMeat = false;
+
         return INGREDIENTS.filter((ingredient) => {
             return (MEAT.indexOf(ingredient) >= 0);
         }).length;
