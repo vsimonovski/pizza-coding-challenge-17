@@ -1,0 +1,23 @@
+{
+  "name": "pizza-cc-2017",
+  "version": "1.0.0",
+  "description": "Submission for pizza coding challenge 2017",
+  "main": "pizza.js",
+  "scripts": {
+    "start": "babel-node pizza.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vladimir Simonovski",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.16.0",
+    "babel-core": "6.17.0",
+    "babel-loader": "6.2.5",
+    "babel-preset-latest": "6.16.0",
+    "babel-register": "6.16.3"
+  }
+}
